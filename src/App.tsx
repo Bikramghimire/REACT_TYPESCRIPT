@@ -1,9 +1,10 @@
 import React from "react";
+import Routing from "./Routing";
 
 function App() {
   return (
     <div className="App">
-      <p>this is the react app</p>
+      <Routing />
     </div>
   );
 }
