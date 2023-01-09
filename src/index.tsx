@@ -6,10 +6,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Routing from "./Routing";
 import { Provider } from "react-redux";
 import store from "./redux/store";
+//@ts-ignore
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
 root.render(
   <BrowserRouter>
     <Provider store={store}>
